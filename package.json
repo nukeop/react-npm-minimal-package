@@ -1,34 +1,39 @@
 {
-  "name": "react-npm-package",
-  "version": "1.0.0",
-  "description": "Minimal boilerplate for creating npm packages based on React",
-  "main": "index.js",
-  "scripts": {
-    "test": "ava",
-    "prepublish": "babel --presets=env,react src --out-dir ./dist",
-    "demo": "webpack -p --progress --colors"
-  },
-  "keywords": [
-    "boilerplate",
-    "npm",
-    "react"
-  ],
-  "author": "nukeop",
-  "license": "MIT",
-  "devDependencies": {
-    "ava": "^0.24.0",
-    "babel-cli": "^6.26.0",
-    "babel-core": "^6.26.0",
-    "babel-loader": "^7.1.2",
-    "babel-preset-env": "^1.6.1",
-    "babel-preset-react": "^6.24.1",
-    "css-loader": "^0.28.8",
-    "node-sass": "^4.7.2",
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0",
-    "sass-loader": "^6.0.6",
-    "style-loader": "^0.19.1",
-    "webpack": "^3.10.0"
-  },
-  "dependencies": {}
+    "name": "react-npm-minimal-package",
+    "version": "1.0.0",
+    "description": "Minimal project skeleton designed for easy development of React components to be later published on NPM",
+    "main": "index.js",
+    "scripts": {
+	"test": "ava",
+	"prepublish": "babel --presets=env,react src --out-dir ./dist",
+	"demo": "webpack -p --progress --colors"
+    },
+    "repository": {
+	"type": "git",
+	"url": "git+https://github.com/nukeop/react-npm-minimal-package.git"
+    },
+    "keywords": [
+	"boilerplate",
+	"npm",
+	"react"
+    ],
+    "author": "nukeop",
+    "license": "MIT",
+    "devDependencies": {
+	"ava": "^0.24.0",
+	"babel-cli": "^6.26.0",
+	"babel-core": "^6.26.0",
+	"babel-loader": "^7.1.2",
+	"babel-preset-env": "^1.6.1",
+	"babel-preset-react": "^6.24.1",
+	"css-loader": "^0.28.8",
+	"node-sass": "^4.7.2",
+	"sass-loader": "^6.0.6",
+	"style-loader": "^0.19.1",
+	"webpack": "^3.10.0"
+    },
+    "dependencies": {	
+	"react": "^16.2.0",
+	"react-dom": "^16.2.0"
+    }
 }
