@@ -19,10 +19,6 @@ All included packages, one by one, with rationale behind their inclusion:
 | webpack                  | The simplest way to create a single script to be included in the demo page. The included production config will bundle your component and a simple demo script to create a website consisting of only two files which can be then statically hosted. The development config will facilitate developing your component, and the publishing config will take care of bundling everything into a file that can be exported to NPM. |
 | webpack-dev-server       | Allows you to easily serve your demo page from a local server, using the "hot reload" mechanism (see above). `npm run dev` will start it with a simple configuration that has everything you need to get to developing your component.                                                                                                                                                                                          |
 
-
-- webpack
-  - 
-  
 ## Development
 Develop your component in ./src. This directory contains index.js which should be used to define what you want to export in your package.
 

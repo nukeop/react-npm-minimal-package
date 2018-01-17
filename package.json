@@ -1,6 +1,6 @@
 {
     "name": "react-npm-minimal-package",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "description": "Minimal project skeleton designed for easy development of React components to be later published on NPM",
     "main": "index.js",
     "scripts": {
